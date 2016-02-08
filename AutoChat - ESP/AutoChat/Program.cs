@@ -55,27 +55,27 @@ namespace AutoChat
             BaseMenu = MainMenu.AddMenu(MenuName, MenuName.ToLower());
             BaseMenu.Add("enable", new CheckBox("Habilitar AutoChat"));
 
-            GreetingMenu = BaseMenu.AddSubMenu("Greeting Message", "greetingmessage");
-            GreetingMenu.Add("sayGreeting", new CheckBox("Say Greeting"));
-            GreetingMenu.Add("sayGreetingAllChat", new CheckBox("Say Greeting In All Chat"));
+            GreetingMenu = BaseMenu.AddSubMenu("Saludos", "greetingmessage");
+            GreetingMenu.Add("sayGreeting", new CheckBox("Saludar"));
+            GreetingMenu.Add("sayGreetingAllChat", new CheckBox("Saludar en el chat general"));
             GreetingMenu.AddSeparator();
-            GreetingMenu.Add("sayGreetingDelayMin", new Slider("Min Greeting Delay", 3, 1, 5));
-            GreetingMenu.Add("sayGreetingDelayMax", new Slider("Max Greeting Delay", 6, 5, 10));
+            GreetingMenu.Add("sayGreetingDelayMin", new Slider("Delay mínimo en saludar", 3, 1, 5));
+            GreetingMenu.Add("sayGreetingDelayMax", new Slider("Delay máximo en saludar", 6, 5, 10));
 
-            OptionsMenu = BaseMenu.AddSubMenu("Message Options", "messageoptions");
-            OptionsMenu.Add("sayCongratulate", new CheckBox("Congratulate"));
-            OptionsMenu.Add("sayMotivate", new CheckBox("Motivate"));
-            OptionsMenu.Add("sayApology", new CheckBox("Apologize"));
-            OptionsMenu.Add("saySympathy", new CheckBox("Sympathetic"));
-            OptionsMenu.Add("sayHonor", new CheckBox("Honor Opponents"));
+            OptionsMenu = BaseMenu.AddSubMenu("Opciones", "messageoptions");
+            OptionsMenu.Add("sayCongratulate", new CheckBox("Felicitar"));
+            OptionsMenu.Add("sayMotivate", new CheckBox("Motivar"));
+            OptionsMenu.Add("sayApology", new CheckBox("Disculparse"));
+            OptionsMenu.Add("saySympathy", new CheckBox("Simpatía"));
+            OptionsMenu.Add("sayHonor", new CheckBox("Dar honor a oponentes"));
             OptionsMenu.AddSeparator();
-            OptionsMenu.Add("sayMessageDelayMin", new Slider("Min Message Delay", 2, 1, 3));
-            OptionsMenu.Add("sayMessageDelayMax", new Slider("Max Message Delay", 6, 3, 10));
-            OptionsMenu.Add("sayMessageInterval", new Slider("Minimum Interval between messages", 180, 1, 600));
+            OptionsMenu.Add("sayMessageDelayMin", new Slider("Delay mínimo en los mensajes", 2, 1, 3));
+            OptionsMenu.Add("sayMessageDelayMax", new Slider("Delay máximo en los mensajes", 6, 3, 10));
+            OptionsMenu.Add("sayMessageInterval", new Slider("Intervalo mínimo en cada mensaje", 180, 1, 600));
 
-            EndGameMenu = BaseMenu.AddSubMenu("EndGame Message", "endgamemessage");
-            EndGameMenu.Add("sayEndGame", new CheckBox("Say EndGame Message"));
-            EndGameMenu.Add("sayEndGameAllChat", new CheckBox("Say EndGame Message In All Chat"));
+            EndGameMenu = BaseMenu.AddSubMenu("Final de la partida", "endgamemessage");
+            EndGameMenu.Add("sayEndGame", new CheckBox("Mensaje al final de la partida"));
+            EndGameMenu.Add("sayEndGameAllChat", new CheckBox("Mensaje al final de la partida en chat general"));
         }
         #endregion
 
@@ -126,17 +126,17 @@ namespace AutoChat
 
             Apologize = new List<string>
             {
-                "mierda", "sorry", "sorry", "ups", "fug", "mala mia"
+                "derp", "sorry", "sorry", "ups", "fug", "mala mia"
             };
 
             Sympathy = new List<string>
             {
-                "lel"
+                "yesh"
             };
 
             Clutch = new List<string>
             {
-			"jajaja", "BIEN", "GJ", "BIEN HECHO", "LOL", "épico", "REKT", "OW", "GG"
+			"jajaja", "BIEN", "GJ", "BIEN HECHO", "LOL", "épico", "REKT", "OW", "GG", "ici"
             };
 
             Motivate = new List<string>
@@ -146,7 +146,7 @@ namespace AutoChat
 
             Honor = new List<string>
             {
-                "wp" ,"wp" , "wp man", "wp", "wp compa", "wp :P", "wp :)"
+                "wp" ,"wp" , "wp", "wp", "wp compa", "wp", "wp :)"
             };
         }
         #endregion
@@ -377,11 +377,11 @@ namespace AutoChat
                     case "Nidalee": return "nid";
                     case "Nocturne": return "noct";
                     case "Orianna": return "ori";
-                    case "Rek'Sai": return "reksai";
+                    case "Rek'Sai": return "rek";
                     case "Sejuani": return "sej";
                     case "TahmKench": return "tahm";
                     case "Tristana": return "trist";
-                    case "Tryndamere": return "trynd";
+                    case "Tryndamere": return "trynda";
                     case "TwistedFate": return "tf";
                     case "Vel'Koz": return "velkoz";
                     case "Vladimir": return "vlad";
