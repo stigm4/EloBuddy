@@ -53,7 +53,7 @@ namespace AutoChat
         static void setupMenu()
         {
             BaseMenu = MainMenu.AddMenu(MenuName, MenuName.ToLower());
-            BaseMenu.Add("enable", new CheckBox("Enable Autochat"));
+            BaseMenu.Add("enable", new CheckBox("Habilitar AutoChat"));
 
             GreetingMenu = BaseMenu.AddSubMenu("Greeting Message", "greetingmessage");
             GreetingMenu.Add("sayGreeting", new CheckBox("Say Greeting"));
