@@ -30,7 +30,7 @@ namespace AutoChat
         public static int minDelay = 0;
         public static int maxDelay = 0;
         
-        public const string MenuName = "AutoChat";
+        public const string MenuName = "AutoChat - ESP";
         public static Menu BaseMenu, GreetingMenu, OptionsMenu, EndGameMenu;
 
         static void Main(string[] args)
