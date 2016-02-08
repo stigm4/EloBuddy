@@ -1,0 +1,17 @@
+C:\Users\stigma\Desktop\AutoChat\AutoChat\bin\Release\AutoChat.exe.config
+C:\Users\stigma\Desktop\AutoChat\AutoChat\bin\Release\AutoChat.exe
+C:\Users\stigma\Desktop\AutoChat\AutoChat\bin\Release\AutoChat.pdb
+C:\Users\stigma\Desktop\AutoChat\AutoChat\bin\Release\EloBuddy.dll
+C:\Users\stigma\Desktop\AutoChat\AutoChat\bin\Release\EloBuddy.SDK.dll
+C:\Users\stigma\Desktop\AutoChat\AutoChat\bin\Release\mscorlib.dll
+C:\Users\stigma\Desktop\AutoChat\AutoChat\bin\Release\SharpDX.dll
+C:\Users\stigma\Desktop\AutoChat\AutoChat\bin\Release\SharpDX.Direct3D9.dll
+C:\Users\stigma\Desktop\AutoChat\AutoChat\bin\Release\Newtonsoft.Json.dll
+C:\Users\stigma\Desktop\AutoChat\AutoChat\bin\Release\normidna.nlp
+C:\Users\stigma\Desktop\AutoChat\AutoChat\bin\Release\normnfc.nlp
+C:\Users\stigma\Desktop\AutoChat\AutoChat\bin\Release\normnfd.nlp
+C:\Users\stigma\Desktop\AutoChat\AutoChat\bin\Release\normnfkc.nlp
+C:\Users\stigma\Desktop\AutoChat\AutoChat\bin\Release\normnfkd.nlp
+C:\Users\stigma\Desktop\AutoChat\AutoChat\obj\Release\AutoChat.csprojResolveAssemblyReference.cache
+C:\Users\stigma\Desktop\AutoChat\AutoChat\obj\Release\AutoChat.exe
+C:\Users\stigma\Desktop\AutoChat\AutoChat\obj\Release\AutoChat.pdb
