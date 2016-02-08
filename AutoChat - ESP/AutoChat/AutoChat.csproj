@@ -7,8 +7,8 @@
     <ProjectGuid>{501C94A1-874E-4536-9E5A-B05F499C7FAE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AutoChat</RootNamespace>
-    <AssemblyName>AutoChat</AssemblyName>
+    <RootNamespace>AutoChat - ESP</RootNamespace>
+    <AssemblyName>AutoChat - ESP</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
